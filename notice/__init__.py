@@ -1,4 +1,9 @@
-from mcdreforged.api.all import *
+import mcdreforged.api.all as mcdr
 
-def on_load(server: PluginServerInterface, old):
+def on_load(server: mcdr.PluginServerInterface, old):
+    register_command(server)
     pass
+
+def register_command(server: mcdr.PluginServerInterface):
+    pass
+

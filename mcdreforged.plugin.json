@@ -2,9 +2,9 @@
     "id": "notice",
     "version": "0.0.1",
     "name": "Notice",
-    "description": "A plugin that allows you to set a notice to the players",
+    "description": "A plugin that allows you to send a notice to the players",
     "author": "Nelson_Boss",
-    "link": "https://github.com/bosswnx/MCDReforged-Notice",
+    "link": "https://github.com/bosswnx/mcdr-plugin-notice",
     "dependencies": {},
 
     "resources": [
