@@ -2,11 +2,15 @@
     "id": "notice",
     "version": "0.0.1",
     "name": "Notice",
-    "description": "A plugin that allows you to send a notice to the players",
+    "description": {
+        "en_us": "A plugin that allows you to send a notice to the players",
+        "zh_cn": "一个允许你向玩家发送公告的插件"
+    },
     "author": "Nelson_Boss",
     "link": "https://github.com/bosswnx/mcdr-plugin-notice",
     "dependencies": {},
-
+    "entrypoint": "src.__init__",
+    "archive_name": "mcdr-plugin-notice",
     "resources": [
         "lang"
     ]
